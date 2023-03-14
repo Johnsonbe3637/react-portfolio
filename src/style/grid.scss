@@ -1,0 +1,32 @@
+.one-column {
+    @include base-grid();
+    grid-template-columns: 1fr;
+  }
+  
+  .two-column {
+    @include base-grid();
+    grid-template-columns: 1fr 1fr;
+  }
+
+
+
+
+
+
+// .one-column {
+//     display: grid;
+//     grid-template-columns: 1fr;
+//     grid-gap: 21px;
+// }
+
+// .two-column {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr;
+//     grid-gap: 21px;
+// }
+
+// .three-column {
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     grid-gap: 21px;
+// }
